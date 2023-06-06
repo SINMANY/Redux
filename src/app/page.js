@@ -10,12 +10,12 @@ export default function Home() {
         name: "Product 1",
         price: 100,
         quantity: 1,
-        image: "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg",
+        image: "https://wallpaperaccess.com/full/1356198.jpg",
         description: " this is the description",
     });
 
     return (
-        <main className='flex min-h-screen flex-col items-center justify-be p-24'>
+        <main className='flex min-h-screen flex-col items-center justify-be p-36'>
             <CardComponent
                 key={product.id}
                 id={product.id}
