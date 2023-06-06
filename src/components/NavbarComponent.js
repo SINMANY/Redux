@@ -8,18 +8,16 @@ export default function NavbarComponent() {
 
     return (
         <div>
-
-
             <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href="https://flowbite.com/" class="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                    <a href="https://istad.co/" class="flex items-center">
+                        <img src="https://istad.co/resources/img/logo_md.png" class="h-8 mr-3" alt="Flowbite Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ISTAD</span>
                     </a>
                     <div class="flex md:order-2">
 
                         <button type="button" class="relative inline-flex items-center p-3 text-sm font-medium text-center text-white">
-                            <img style={{ width: "35px" }} src="./img/carts.jpg" />
+                            <img style={{ width: "35px" }} src="./img/icon.png" />
                             <span class="sr-only"></span>
                             <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -right-2 dark:border-gray-900">{cart.length}</div>
                         </button>

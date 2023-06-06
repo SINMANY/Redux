@@ -16,7 +16,6 @@ export default function Home() {
 
     return (
         <main className='flex min-h-screen flex-col items-center justify-be p-24'>
-            <h1>he</h1>
             <CardComponent
                 key={product.id}
                 id={product.id}
